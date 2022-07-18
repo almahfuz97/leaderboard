@@ -33,6 +33,12 @@ body {
     align-items: center;
 }
 
+.flex-container-nav2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .flex-container-nav a {
     text-decoration: none;
     color: white;
@@ -306,7 +312,12 @@ h2 {
     }
 
     .latest-course-section {
-        padding: 10% 15%;
+        padding: 5% 15%;
+    }
+
+
+    .menu-options {
+        display: none;
     }
 
 
