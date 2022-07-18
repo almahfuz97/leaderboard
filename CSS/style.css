@@ -12,8 +12,8 @@ body {
     display: flex;
     background-color: #562EFF;
     justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -58,7 +58,7 @@ body {
 }
 
 main {
-    padding: 1% 20%;
+    padding: 1% 15%;
 
 }
 
@@ -89,7 +89,6 @@ h2 {
 
 .half-width {
     width: 25%;
-
     margin-right: 5%;
 }
 
@@ -234,34 +233,34 @@ h2 {
     margin-right: 5px;
 }
 
+
+.clock-width {
+    width: 50%;
+}
+
 .time {
-    background-color: #FFE4E8;
-    padding: 2px 8px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-}
-
-.time p {
-    color: #FF4A60;
-    align-self: center;
-}
-
-.time img {
-    width: 1.5em;
-    text-align: center;
-}
-
-.clock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 
 }
 
-.minutes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.clock-width img {
+    width: 50%;
+}
 
+
+.course-flex-width {
+    width: 100%;
+}
+
+.star-width {
+    width: calc(100%/6);
+}
+
+.star-width img {
+    width: 100%;
+
+}
+
+.star-width p {
+    width: 100%;
 }
